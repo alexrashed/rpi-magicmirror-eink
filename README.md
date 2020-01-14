@@ -65,7 +65,7 @@ The python script uses [pyppeteer (Python implementation of Chromium's instrumen
   cd rpi-magicmirror-eink
   python3.7 -m venv .venv
   source .venv/bin/activate
-  pip install -r requirements
+  pip install -r requirements.txt
   ```
 - Copy the MagicMirror² config, CSS and fonts into the MagicMirror directory:
   ```bash
